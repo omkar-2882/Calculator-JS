@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background-color: rgb(242, 216, 195);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 0px 20px;
+    /* margin: 10px 450px 450px 10px; */
+    margin: 90px auto;
+    width: 240px;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1rem;
+    margin: 20px 20px;
+    /* border: 2px solid red; */
+}
+.textarea{
+    /* display: flex; */
+    /* border: 2px solid rgb(151, 218, 62); */
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 200px;
+}
+#exp{
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    width: 237px;
+    height: 79px;
+    font-size: 25px;
+    text-align: right;
+    color: white;
+    padding: 0px 20px;
+    padding-top: 117px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px -1px black;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    cursor: pointer;
+    width: 0.3rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: hsl(265deg 95% 68%);
+    outline: 0px solid slategrey;
+}
+
+.btn{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 12px;
+    box-shadow: -3px -3px 6px -3px #3f3f3f, 3px 3px 12px -3px black;
+    font-size: 17px;
+}
+
+#eq{
+    background-color: hsl(265deg 95% 68%);
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero{
+    font-weight: bolder;
+}
+
+
+.btn:active{
+    box-shadow: inset -7px -7px 5px -6px rgba(67, 67, 67, 0.6);
+}
+.btn:hover{
+    background-color: rgb(42, 42, 42);
+    color: hsl(265deg 95% 68%);
+}

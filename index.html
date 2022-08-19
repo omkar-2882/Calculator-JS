@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="textarea">
+            <form action="">
+                <textarea type="text" id="exp"> </textarea>
+            </form>
+        </div>
+        <div class="container">
+            <button class="btn" id="(" onclick="wrt(this.id)">(</button> 
+            <button class="btn" id=")" onclick="wrt(this.id)">)</button> 
+            <button class="btn" id="ce" onclick="wrt(this.id)">CE</button> 
+            <button class="btn" id="div" onclick="wrt(this.id)">&divide;</button> 
+            <button class="btn" id="seven" onclick="wrt(this.id)">7</button> 
+            <button class="btn" id="eight" onclick="wrt(this.id)">8</button>
+            <button class="btn" id="nine" onclick="wrt(this.id)">9</button>
+            <button class="btn" id="mul" onclick="wrt(this.id)">&times;</button>
+            <button class="btn" id="four" onclick="wrt(this.id)">4</button>
+            <button class="btn" id="five" onclick="wrt(this.id)">5</button>
+            <button class="btn" id="six" onclick="wrt(this.id)">6</button>
+            <button class="btn" id="diff" onclick="wrt(this.id)">-</button>
+            <button class="btn" id="one" onclick="wrt(this.id)">1</button>
+            <button class="btn" id="two" onclick="wrt(this.id)">2</button>
+            <button class="btn" id="three" onclick="wrt(this.id)">3</button>
+            <button class="btn" id="add" onclick="wrt(this.id)">+</button>
+            <button class="btn" id="ac" onclick="wrt(this.id)">AC</button>
+            <button class="btn" id="zero" onclick="wrt(this.id)">0</button>
+            <button class="btn" id="." onclick="wrt(this.id)">.</button>
+            <button class="btn" id="eq" onclick="ev()"> =</button>
+        </div>
+    </div>
+</body>
+</html>
